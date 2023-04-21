@@ -28,7 +28,13 @@ export default function Experience() {
                     2021 - Aujourd'hui          </p>
             </Card>
 
-            
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
+
+        
     )
 }
