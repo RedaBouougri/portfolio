@@ -1,4 +1,6 @@
 import { Card } from 'primereact/card';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 export default function Projet() {
 
@@ -17,78 +19,70 @@ export default function Projet() {
     return (
         <div className='container mt-4'>
 
-            <section className='section'>
+<section className='section'>
 
-                <div className='project-container' style={{ display: 'flex', justifyContent: 'space-between' }}>
-                    <div className='project-card card'  >
-                    <Card  header={crm} className="md:w-25rem" style={{height:400}}>
-                        <div className='project-title card-title h5'>
+<div className='project-container row'>
 
-                            Plateforme de gestion des marchés et service apres ventes Crm
-                        </div>
-                        <br/>
-                        <div className='project-school card-subtitle h6'>
+  <div className='project-card col-md-6 col-lg-3 mb-4'>
+    <Card header={crm} className="card" style={{height:400}}>
+      <div className='project-title card-title h5'>
+        Plateforme de gestion des marchés et service apres ventes Crm
+      </div>
+      <br/>
+      <div className='project-school card-subtitle h6'>
+        3Gcom telecommunications & IT industry
+      </div>
+      <a className='project-link card-link' href=" https://github.com/azdadanass/crm">
+        Link Github
+      </a>
+    </Card>
+  </div>
+  
+  <div className='project-card col-md-6 col-lg-3 mb-4'>
+    <Card header={pokemon} className="card" style={{height:400}}>
+      <div className='project-title card-title h5'>
+        Application android Pokedex
+      </div>
+      <br/>
+      <div className='project-school card-subtitle h6'>
+        Projet scolaire
+      </div>
+      <a className='project-link card-link' href="https://github.com/reda108/pockemon">
+        Link Github
+      </a>
+    </Card>
+  </div>
+  
+  <div className='project-card col-md-6 col-lg-3 mb-4'>
+    <Card header={smarthome} className="card" style={{height:400}}>
+      <div className='project-title card-title h5'>
+        Smart home
+      </div>
+      <br/>
+      <div className='project-school card-subtitle h6'>
+        Projet scolaire
+      </div>
+      <a className='project-link card-link' href="https://github.com/reda108/domitiqueProject">
+        Link Github
+      </a>
+    </Card>
+  </div>
+  
+  <div className='project-card col-md-6 col-lg-3 mb-4'>
+    <Card header={scolaire} className="card" style={{height:400}}>
+      <div className='project-title card-title h5'>
+        Gestion scolaire
+      </div>
+      <br/>
+      <div className='project-school card-subtitle h6'>
+        Projet scolaire
+      </div>
+    </Card>
+  </div>
+  
+</div>
 
-                           3Gcom telecommunications & IT industry
-                        </div>
-                        <a className='project-link card-link'   href=" https://github.com/azdadanass/crm">
-
-                         Link Github
-                        </a>
-                        </Card>
-                    </div>
-                    <div className='project-card card'>
-                    <Card  header={pokemon} className="md:w-25rem" style={{height:400}}>
-                        <div className='project-title card-title h5'>
-
-                            Application android Pokedex
-                        </div>
-                        <br/>
-                        <div className='project-school card-subtitle h6'>
-
-                            Projet scolaire
-                        </div>
-                        <a className='project-link card-link'   href="https://github.com/reda108/pockemon">
-
-                         Link Github
-                        </a>
-                        </Card>
-                    </div>
-                    <div className='project-card card'>
-                    <Card  header={smarthome} className="md:w-25rem" style={{height:400}}>
-                        <div className='project-title card-title h5'>
-
-                            Smart home
-                        </div>
-                        <br/>
-                        <div className='project-school card-subtitle h6'>
-
-                            Projet scolaire
-                        </div>
-                        <a className='project-link card-link'   href="https://github.com/reda108/domitiqueProject">
-
-                         Link Github
-                        </a>
-                        </Card>
-                    </div>
-                    <div className='project-card card'>
-                    <Card  header={scolaire} className="md:w-25rem" style={{height:400}}>
-                        <div className='project-title card-title h5'>
-
-                            Gestion scolaire
-                        </div>
-                        <br/>
-                        <div className='project-school card-subtitle h6'>
-
-                            Projet scolaire
-                        </div>
-                        
-                       </Card>
-                    </div>
-
-                </div>
-
-            </section>
+</section>
 
         </div>
     )

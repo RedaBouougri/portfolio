@@ -41,7 +41,28 @@
   padding: 60px 0;
 }
 
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.project-card {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .project-card {
+      width: 48%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .project-card {
+      width: 32%;
+  }
+}
 
 .project-card {
   min-width: 768pSx;
@@ -82,7 +103,7 @@
 }
 
 .header {
-  background-image: linear-gradient(to bottom right,#5cecb0,#14219c,#8000ff,#769ef5,#046659);
+  background-image: linear-gradient(to bottom right,#5cecb0,#14219c,#8000ff,#769ef5,#7decde);
   color: #fff;
   padding: 40px;
   text-align: center;
