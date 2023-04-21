@@ -12,7 +12,7 @@ export default function BasicDemo() {
 
     const navigate = useNavigate();
     const items = [
-        {label: 'Accueil', icon: 'pi pi-fw pi-home' , command: () => {navigate('/Accueil')}},
+        {label: 'Accueil', icon: 'pi pi-fw pi-home' , command: () => {navigate('/')}},
         {label: 'Formations', icon: 'pi pi-fw pi-book' , command: () => {navigate('/Formation ')}},
         {label: 'Experiences', icon: 'pi pi-fw pi-list' , command: () => {navigate('/Experience ')}},
         
