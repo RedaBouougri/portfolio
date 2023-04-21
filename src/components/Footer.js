@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { RiFacebookCircleFill } from "react-icons/ri";
 import { TiSocialLinkedin } from "react-icons/ti";
-import { AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai';
 import { RiTelegramFill } from 'react-icons/ri';
 import "../styles/footer.css"
 import { InputText } from 'primereact/inputtext';
@@ -57,6 +57,7 @@ export default function Footer() {
                             <a href="https://www.facebook.com/reda.bouougri.7/"><RiFacebookCircleFill/></a>
                             <a href="https://www.linkedin.com/in/bouougri-reda-250846212/"><TiSocialLinkedin/></a>
                             <a href="https://www.instagram.com/bouougri/"><AiFillInstagram/></a>
+                            <a href="https://github.com/reda108"><AiFillGithub/></a>
                         </div>
                     </div>
 
