@@ -46,7 +46,7 @@ export default function Certification() {
         <br/>
         <div className='project-school card-subtitle h6' style={{textAlign:"left"}}>
           
-IBM
+        The Hong Kong University of Science and Technology
 
         </div>
         <div className='project-school card-subtitle h6' style={{textAlign:"left"}}>
