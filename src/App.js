@@ -9,6 +9,7 @@ import Experience from './components/Experience';
 import Cour from './components/Cour';
 import Projet from './components/Project';
 import Certification from './components/Certification';
+import Projet2 from './components/Projets2';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
                      <Route exact path="/Formation" element={ <Formation/>}/>
                      <Route exact path="/Experience" element={ <Experience/>}/>
                      <Route exact path="/Certification" element={ <Certification/>}/>
-                     <Route exact path="/Projet" element={ <Projet/>}/>
+                    
+                     <Route exact path="/Projet" element={ <Projet2/>}/>
                     
 
                  </Routes>

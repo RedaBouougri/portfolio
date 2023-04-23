@@ -15,7 +15,6 @@ export default function BasicDemo() {
         {label: 'Accueil', icon: 'pi pi-fw pi-home' , command: () => {navigate('/')}},
         {label: 'Formations', icon: 'pi pi-fw pi-book' , command: () => {navigate('/Formation ')}},
         {label: 'Experiences', icon: 'pi pi-fw pi-list' , command: () => {navigate('/Experience ')}},
-        
         {label: 'Projets', icon: 'pi pi-fw pi-box' , command: () => {navigate('/Projet ')}},
         {label: 'Certifications', icon: 'pi pi-fw pi-verified', command: () => {navigate('/Certification ')}},
         
