@@ -12,12 +12,12 @@ import 'primeicons/primeicons.css';
         {
           breakpoint: '1199px',
           numVisible: 2,
-          numScroll: 2
+          numScroll: 1
         },
         {
           breakpoint: '991px',
           numVisible: 2,
-          numScroll: 2
+          numScroll: 1
         },
         {
           breakpoint: '767px',
@@ -76,7 +76,7 @@ import 'primeicons/primeicons.css';
       <div className='container mt-4'>
         <section className='section'>
           <div className='project-container row'>
-            <Carousel value={items} itemTemplate={itemTemplate} responsiveOptions={responsiveOptions} numVisible={3} numScroll={1} />
+            <Carousel value={items} itemTemplate={itemTemplate} responsiveOptions={responsiveOptions} numVisible={3} numScroll={1} autoplayInterval={2000} />
           </div>
         </section>
       </div>
