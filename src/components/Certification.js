@@ -25,14 +25,14 @@ export default function Certification() {
         IBM
         
         </div>
-        <div className='project-school card-subtitle h6' style={{textAlign:"left"}}>
+        <div className='project-school card-subtitle h6' style={{textAlign:"left",marginTop:2}}>
         
-        date de délivrance : mars.2023
+        Date de délivrance : mars.2023
      
         </div>
-        <div className='project-school card-subtitle h6' style={{textAlign:"left"}}>
+        <div className='project-school card-subtitle h6' style={{textAlign:"left",marginTop:2}}>
        
-        identifiant de la certification : SKUCJYUFZPX2
+        Identifiant de la certification : SKUCJYUFZPX2
         </div>
         
       </Card>
@@ -49,16 +49,16 @@ export default function Certification() {
         The Hong Kong University of Science and Technology
 
         </div>
-        <div className='project-school card-subtitle h6' style={{textAlign:"left"}}>
+        <div className='project-school card-subtitle h6' style={{textAlign:"left",marginTop:2}}>
           
 
-date de délivrance : janv.2023
+Date de délivrance : janv.2023
 
         </div>
-        <div className='project-school card-subtitle h6' style={{textAlign:"left"}}>
+        <div className='project-school card-subtitle h6' style={{textAlign:"left",marginTop:2}}>
           
 
-identifiant de la certification : ND2N466XU469
+Identifiant de la certification : ND2N466XU469
         </div>
         
       </Card>
