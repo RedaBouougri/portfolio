@@ -48,7 +48,8 @@ import 'primeicons/primeicons.css';
         {
           header: <img alt="Card" src={require('./scolaire.jpeg')} style={{height:150}} />,
           title: 'Gestion scolaire',
-          school: 'Projet scolaire'
+          school: 'Projet scolaire',
+          githubLink: 'https://github.com/reda108/school-manag-2'
         }
       ];
     
